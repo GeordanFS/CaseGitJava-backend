@@ -25,7 +25,7 @@ import com.example.demo.model.Usuario;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin("*")
+@CrossOrigin(origins="*", allowedHeaders="*")
 public class UsuarioController {
 
 	@Autowired
