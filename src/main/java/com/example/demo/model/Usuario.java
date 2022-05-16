@@ -29,7 +29,6 @@ public class Usuario {
 	
 	private String senha;
 	
-	private String foto;
 	
 	
 
@@ -68,13 +67,6 @@ public class Usuario {
 		this.senha = senha;
 	}
 
-	public String getFoto() {
-		return foto;
-	}
-
-	public void setFoto(String foto) {
-		this.foto = foto;
-	}
 	
 	
 }
